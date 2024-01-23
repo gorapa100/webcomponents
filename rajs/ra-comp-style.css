@@ -1,0 +1,16 @@
+  
+
+div[is="ra-gridlayout"] {
+    padding: 0;
+    margin: 0;
+}
+
+div[is="ra-gridlayout"] > div {
+    visibility: hidden;
+}
+
+div[is="ra-gridlayout"].ra-comp > div {
+    visibility: visible;
+}
+
+
